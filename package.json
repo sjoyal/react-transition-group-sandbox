@@ -1,0 +1,37 @@
+{
+  "name": "react-transition-group-sandbox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjoyal/react-transition-group-sandbox.git"
+  },
+  "private": true,
+  "author": "Sean <sean.joyal@advent.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjoyal/react-transition-group-sandbox/issues"
+  },
+  "homepage": "https://github.com/sjoyal/react-transition-group-sandbox#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-transition-group": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "http-server": "^0.11.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
